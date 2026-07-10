@@ -53,10 +53,10 @@ nav a:hover{
     background-color: #2952ff;
     color: white;
     font-size: 20px;
-    padding: 18px 36px;
+    padding: 14px 24px;
     border-radius: 15px;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 700;
     transition: .3s;
 }
 /*==========Navbar End=========*/
@@ -114,6 +114,64 @@ nav a:hover{
     font-size: 30px;
 }
 .hero-button:hover{
-    background: #1238d5;
+    background: bisque;
+    color: #111;
 }
 /*=============Hero Section End============*/
+
+/*=============Meet The Speakers Section Start============*/
+.meet-the-speaker{
+    padding: 100px 0;
+    background: #ffffff;
+}
+.title-name{
+    text-align: center;
+    font-size: 65px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 60px;
+}
+.speaker-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 35px;
+}
+.card{
+    background: #fff;
+    border: 1px solid #e7e7e7;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .35s;
+}
+.card img{
+     width: 100%;
+    height: 360px;
+    object-fit: cover;
+    display: block;
+}
+.card:hover{
+    box-shadow: 0 15px 35px rgba(0,0,0,.12);
+}
+.speaker-information{
+    padding: 20px;
+}
+.speaker-information span{
+       font-size: 15px;
+    color: #2952ff;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.speaker-information h3{
+     margin-top: 5px;
+    font-size: 20px;
+    color: #111;
+    font-weight: 700;
+}
+.speaker-information p{
+      margin-top: 8px;
+    color: #666;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/*=============Meet The Speakers Section End============*/
