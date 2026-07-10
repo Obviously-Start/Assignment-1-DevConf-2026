@@ -1,0 +1,119 @@
+/*-------Universal Selector Using-------*/
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+/*-------Body-------*/
+body{
+    font-family: 'Open Sans',sans-serif;
+    padding-top: 0px;
+}
+/*-------Common container-------*/
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+/*--------Header---------*/
+header{
+    background: #fff;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+/*------Header Container--------*/
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+/*-------Header Logo===========*/
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+/*=========Navbar Section========*/
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+nav a{
+    text-decoration: none;
+    color: #555;
+    font-size: 20px;
+}
+nav a:hover{
+    color: #2952ff;
+}
+.navbar-button{
+    background-color: #2952ff;
+    color: white;
+    font-size: 20px;
+    padding: 18px 36px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .3s;
+}
+/*==========Navbar End=========*/
+
+
+/*==========Hero Section=========*/
+.hero{
+    position: relative;
+    height: 100vh;
+    background: url(./images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.overlayout{
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,.20);
+}
+.hero-information{
+    position: relative;
+    color: white;
+    text-align: center;
+    width: 900px;
+    margin-top: 150px;
+}
+.hero h1{
+    font-family: "Inter",sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+.hero h1 span{
+    font-style: italic;
+}
+.hero p{
+    width: 760px;
+    margin: auto;
+    font-size: 20px;
+     line-height: 1.5;
+     color: #ddd;
+     margin-bottom: 400px;
+}
+.hero-button{
+    background-color: #2952ff;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: .3s;
+    font-size: 30px;
+}
+.hero-button:hover{
+    background: #1238d5;
+}
+/*=============Hero Section End============*/
