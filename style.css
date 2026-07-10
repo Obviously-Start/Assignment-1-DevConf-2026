@@ -175,3 +175,132 @@ nav a:hover{
 }
 
 /*=============Meet The Speakers Section End============*/
+
+/*=========================Secure Your Spot Start=======================*/
+.secure-your-spot{
+    padding: 100px 0;
+    background: #fff;
+}
+.pricing-title{
+    text-align: center;
+    font-size: 65px;
+    font-weight: 700;
+    color: #111827;
+}
+.pricing-subtitle{
+    text-align: center;
+    color: #777;
+    margin-top: 12px;
+    margin-bottom: 60px;
+    font-size: 16px;
+}
+.pricing-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.price-card{
+    border: 1px solid#e6e6e6;
+    border-radius: 12px;
+    padding: 30px;
+    background: #fff;
+    transition: .3s;
+}
+.price-card:hover{
+    box-shadow: 0 15px 35px rgba(0,0,0,.12);
+}
+.active{
+    background: #0f1b2d;
+    color: white;
+}
+.active hr{
+   border-color:rgba(255,255,255,.15);    
+}
+.active .person {
+    color: #cfd8e3;
+}
+.active li{
+    color: #e5e7eb;
+}
+.plan{
+    font-size: 14px;
+    color: #b4b6b8;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.price-card h2{
+    margin-top: 10px;
+    font-size: 52px;
+    font-weight: 800px;
+}
+.person{
+    color:#777;
+    margin-bottom: 20px;
+}
+.price-card hr{
+    border: none;
+    border-top: 1px solid #ececec;
+    margin: 20px 0;
+}
+.price-card ul{
+    list-style: none;
+}
+.price-card ul li {
+    margin-bottom: 14px;
+    color: #555;
+    font-size: 15px;
+}
+.price-card ul li ::before{
+    content: ".";
+    color: #ffffff;
+    margin-right: 10px;
+}
+.price-button{
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    padding: 14px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: .3s;
+}
+.standard-button{
+    background: #fff;
+    color: #2952ff;
+    border: 1px solid #2952ff;
+}
+.standard-button:hover{
+    background: #2952ff;
+    color: white;
+}
+.pro-button{
+    background: #1238d5;
+    color:white;
+    border: 1px solid #2952ff;
+}
+.pro-button:hover{
+    background:white;
+ color: #111;
+}
+.team-button{
+    background:white;
+    color: #111;
+    border: 1px solid #111;
+}
+.team-button:hover{
+    background: #111;
+    color: white;
+}
+.outline{
+    background: transparent;
+    border: 1px solid #2952ff;
+    color: #2952ff;
+}
+.outline:hover{
+    background: #2952ff;
+    color: white;
+}
+
+/*=========================Secure Your Spot End=======================*/
